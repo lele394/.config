@@ -13,6 +13,8 @@ using hyprpaper, just need to run hyprpaper to start
 
 config for now :
 
+
+```
 preload = /home/leo/.config/wallpapers/acheron.png
 
 wallpaper = eDP-1, /home/leo/.config/wallpapers/acheron.png

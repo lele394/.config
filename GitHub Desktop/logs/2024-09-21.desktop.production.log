@@ -27,3 +27,26 @@
 2024-09-21T22:40:39.305Z - info: [ui] [Welcome] no sign in step found. ignoring...
 2024-09-21T22:41:26.763Z - info: [ui] [AppStore] adding repository at /home/leo/.config to store
 2024-09-21T22:41:27.527Z - info: [ui] [BranchPruner] No branches to prune.
+2024-09-21T22:42:01.504Z - info: [ui] [Timing] Action 'create commit' for 'lele394/.config' took 0.140s
+2024-09-21T22:42:11.299Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-09-21T22:42:13.061Z - info: [ui] Executing push: git push origin main --set-upstream --progress (took 2.096s)
+2024-09-21T22:42:18.201Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.0s of which 0.0s paused, total 0.0s
+2024-09-21T23:41:36.139Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-09-21T23:41:36.145Z - info: [ui] [AppStore] found account: lele394 (lele394)
+2024-09-21T23:41:36.177Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2024-09-21T23:41:36.737Z - warn: [ui] Error refreshing account 'lele394'
+Error: Cannot update an account which doesn't have a token: lele394
+    at lt (/home/leo/webpack:/app/src/lib/fatal-error.ts:3:9)
+    at /home/leo/webpack:/app/src/lib/stores/accounts-store.ts:216:12
+    at Hp.tryUpdateAccount (/home/leo/webpack:/app/src/lib/stores/accounts-store.ts:135:20)
+    at /home/leo/webpack:/app/src/lib/stores/accounts-store.ts:115:37
+    at Array.map (<anonymous>)
+    at Hp.refresh (/home/leo/webpack:/app/src/lib/stores/accounts-store.ts:115:21)
+    at Hp.loadInitialState (/home/leo/webpack:/app/src/lib/stores/app-store.ts:2288:24)
+2024-09-21T23:41:37.170Z - warn: [ui] Alive channel request failed: Error: Not Found
+2024-09-21T23:41:37.225Z - info: [ui] launching: 3.4.3-linux1 (Linux 6.10.10-arch1-1)
+2024-09-21T23:41:37.226Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-09-21T23:41:37.256Z - warn: [ui] Alive channel request failed: Error: Not Found
+2024-09-21T23:41:37.279Z - warn: [ui] Alive channel request failed: Error: Not Found
+2024-09-21T23:41:37.310Z - warn: [ui] Alive channel request failed: Error: Not Found
+2024-09-21T23:41:37.627Z - info: [ui] Stats reported.
