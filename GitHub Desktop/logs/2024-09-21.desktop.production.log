@@ -50,3 +50,18 @@ Error: Cannot update an account which doesn't have a token: lele394
 2024-09-21T23:41:37.279Z - warn: [ui] Alive channel request failed: Error: Not Found
 2024-09-21T23:41:37.310Z - warn: [ui] Alive channel request failed: Error: Not Found
 2024-09-21T23:41:37.627Z - info: [ui] Stats reported.
+2024-09-21T23:41:51.408Z - info: [ui] [Timing] Action 'create commit' for 'lele394/.config' took 0.131s
+2024-09-21T23:41:54.569Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-09-21T23:42:09.547Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-09-21T23:42:19.968Z - info: [ui] [AppStore] removing account lele394 (lele394) from store
+2024-09-21T23:42:22.619Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-09-21T23:42:22.624Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=b16ffebc-efba-4d0b-8851-956dff5b9100
+2024-09-21T23:42:22.624Z - info: [ui] [SignInStore] account resolved
+2024-09-21T23:42:28.814Z - info: [main] Received possible protocol arguments: 3
+2024-09-21T23:42:28.815Z - info: [main] Processing protocol url
+2024-09-21T23:42:28.865Z - info: [main] Received possible protocol arguments: 2
+2024-09-21T23:42:28.870Z - info: [main] Processing protocol url
+2024-09-21T23:42:29.929Z - info: [ui] [AppStore] adding account lele394 (lele394) to store
+2024-09-21T23:42:38.224Z - info: [ui] Subscribed 'lele394' to Alive channel
+2024-09-21T23:42:40.124Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-09-21T23:42:41.020Z - info: [ui] Executing push: git push origin main:main --progress (took 1.220s)
