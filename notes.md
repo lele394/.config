@@ -7,6 +7,28 @@ bonus pacstrap packages :
 nano iwd dhcpcd 
 
 
+# Status bar
+
+- backlight
+Using waybar, need `light` from yay to control backlight
+change perms of backlight file with `sudo chmod 666 /sys/class/backlight/YOUR_BACKLIGHT_INTERFACE/brightness`, use intel_backlight on asus
+
+# sddm theme
+
+https://github.com/Keyitdev/sddm-astronaut-theme
+
+
+
+# Lockscreen 
+
+hyprlock and basic default conf for now (check doc)
+
+
+# Powermenu 
+
+https://github.com/jluttine/rofi-power-menu
+
+
 
 # Wallpaper 
 using hyprpaper, just need to run hyprpaper to start 
